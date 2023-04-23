@@ -1,0 +1,28 @@
+.box {
+    height: 200px;
+    width: 200px;
+    /* background-color: grey; */
+    animation-name: box;
+    animation-duration: 10s;
+    animation-delay: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box {
+    0% {
+        background-color: #DC8C92;
+    }
+    25% {
+        background-color: #FF3540;
+    }
+    50% {
+        background-color: #AB64E6;
+    }
+    75% {
+        background-color: #E8B37D;
+    }
+    100% {
+        background-color: #A741EF;
+    }
+}
